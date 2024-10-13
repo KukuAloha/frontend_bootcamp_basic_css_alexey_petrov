@@ -1,0 +1,220 @@
+.sunset-container {
+    display: flex;
+    width: 100%;
+    height: 200px; 
+}
+
+.left-child, .right-child {
+    width: 50%;
+    height: 100%;
+}
+
+.left-child {
+    background-color: #f96437;
+}
+
+.right-child {
+    background-color: #faad95;
+}
+
+.ocean-container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #67b3f1;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-island {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 42, 42); 
+}
+
+.vibrant-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #67b3f1;
+}
+
+.layer-one {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green; 
+    z-index: 1; 
+    top: 50px;
+    left: 50px;
+}
+  
+
+.layer-two {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(233, 85, 85); 
+    z-index: 2; 
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+ 
+.spotlight-container {
+    width: 80%;
+    height: 300px;
+    margin: 50px;
+    background-color: #67b3f1;
+    position: relative; 
+}
+  
+.spotlight {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347; /* Tomato color for the nested div */
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.scroll-container{
+    display: flex;
+    max-width: 100%;
+    height: 500px;
+    overflow: scroll;
+    font-size: 24px;
+}
+
+.main-content{
+    width: 80%;
+    height: fit-content;
+    background: #67b3f1;
+    padding: 15px;
+}
+
+.sticky-sidebar{
+    width: 20%;
+    height: 300px;
+    background: #faad95;
+    top: 0;
+    padding: 15px;
+}
+
+.corner-container{
+    width:400px;
+    background: #67b3f1;
+    overflow: scroll;
+    height: 500px;
+    font-size: 24px;
+}
+
+.fixed-ad{
+    width: 50px;
+    height: 50px;
+    background: #f96437;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left:100%;
+}
+
+.jewel-container{
+    width: 100%;
+    height: 400px;
+    background: #67b3f1;
+    position: relative;
+}
+
+.jewel-core{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f96437;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.layered-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #67b3f1;
+}
+
+.top-layer{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green; 
+    z-index: 3; 
+    top: 50px;
+    left: 50px;
+}
+  
+
+.middle-layer {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(233, 85, 85); 
+    z-index: 2; 
+    top: 50px;
+    left: 170px;
+    border-radius: 50%;
+}
+
+.bottom-layer{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    z-index: 1; 
+    top: 150px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.box-container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #67b3f1;
+    justify-content: center;
+    align-items: center;
+}
+
+.overflow-container {
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.content-one, .content-two, .content-three {
+    width: 100%;
+    height: 200px; 
+}
+
+.content-one {
+    background-color: blue;
+}
+
+.content-two {
+    background-color: yellow;
+}
+
+.content-three {
+    background-color: red;
+}
+
+.fixed-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 42, 42); 
+}
