@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src:url('/assets/fonts/BebasNeue-Regular.ttf') format('truetype'),
+        url('/assets/BebasNeue-Regular.woff2') format('woff2'),
+        url('/assets/BebasNeue-Regular.woff') format('woff');
+}
+
+body{
+    background-color: #E9EBF0;
+    font-family: "Oswald", sans-serif;
+    /* OPTIONAL ONLY FOR BEAUTY*/
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 38px;
+    padding: 17px 0;
+    border-bottom: 2px solid #CED0D5;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+nav{
+    list-style: none;
+    font-family: 'BebasNeue';
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #3230FF;
+}
+
+.title{
+    padding: 0 39px;
+}
+
+.title p:nth-child(1){
+    font-size: 64px;
+    font-weight: 700;
+    width: 799px;
+    height: 112px;
+    margin-bottom: 0;
+}
+
+.title p:nth-child(2){
+    font-size: 18px;
+    width: 795px;
+    height: 167px;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+/* Another solution to make 3 columns */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.box{
+    /* flex:0 0 33%; */
+    height: 300px;
+    padding: 33px 0 0 25px;
+    border: 1px solid #CDD0D8;
+}
+
+.box:nth-child(odd){
+    background-color: #FFFFFF;
+}
+
+.box:nth-child(even){
+    background-color: #E2E4F0;
+}
+
+.box:hover{
+    background-color: #FFEAB4;
+}
+
+.box-icon{
+    font-size: 100px;
+}
+
+.box-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.box-text{
+    font-weight: 400;
+    font-size: 16px;
+    width: 292px;
+}
